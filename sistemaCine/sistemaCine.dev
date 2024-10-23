@@ -1,7 +1,7 @@
 [Project]
 filename = sistemaCine.dev
 name = sistemaCine
-UnitCount = 1
+UnitCount = 3
 Type = 1
 Ver = 3
 Includes = 
@@ -9,7 +9,7 @@ Libs =
 Bins = 
 ResourceIncludes = 
 MakeIncludes = 
-PrivateResource = 
+PrivateResource = sistemaCine_private.rc
 Compiler = 
 CppCompiler = 
 Linker = 
@@ -44,7 +44,7 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = main.c
+FileName = idManager.c
 CompileCpp = 0
 Folder = Sources
 Compile = 1
@@ -54,13 +54,6 @@ OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
 RealEncoding = ASCII
-
-
-[CompilerSettings]
-c_cmd_opt_std = 
-cc_cmd_opt_debug_info = on
-cc_cmd_opt_use_pipe = on
-cc_cmd_opt_warning_all = on
 
 
 [VersionInfo]
@@ -81,3 +74,36 @@ ProductName =
 ProductVersion = 
 AutoIncBuildNr = 0
 SyncProduct = 1
+
+
+[Unit2]
+FileName = main.c
+CompileCpp = 0
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit3]
+FileName = idManager.h
+CompileCpp = 0
+Folder = Headers
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[CompilerSettings]
+cc_cmd_opt_debug_info = on
+cc_cmd_opt_std = 
+cc_cmd_opt_use_pipe = on
+cc_cmd_opt_warning_all = on
