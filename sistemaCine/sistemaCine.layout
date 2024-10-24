@@ -1,5 +1,15 @@
 [
     {
+        "caretX": 2,
+        "caretY": 29,
+        "filename": "D:/cine/sistemaCine/main.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 924
+    },
+    {
         "caretX": 1,
         "caretY": 1,
         "filename": "D:/cine/sistemaCine/idManager.c",
@@ -8,16 +18,6 @@
         "left": 0,
         "order": 1,
         "top": 0
-    },
-    {
-        "caretX": 17,
-        "caretY": 18,
-        "filename": "D:/cine/sistemaCine/main.c",
-        "focused": true,
-        "isOpen": true,
-        "left": 0,
-        "order": 0,
-        "top": 1380
     },
     {
         "caretX": 1,
