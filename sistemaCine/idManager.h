@@ -1,9 +1,9 @@
 #ifndef IDMANAGER_H
 #define IDMANAGER_H
 
-#define USUARIO_CODE 0
-#define PELICULA_CODE 1
-#define FUNCION_CODE 2
+#define USER_CODE 0
+#define FILM_CODE 1
+#define FUNCTION_CODE 2
 
 struct Id {
 	char code;
