@@ -1,59 +1,59 @@
 # Ignorar archivos de compilación en la carpeta sistemaCine
-sistemaCine/*.o
-sistemaCine/*.obj
-sistemaCine/*.so
-sistemaCine/*.a
-sistemaCine/*.exe
-sistemaCine/*.out
-sistemaCine/*.dll
+/*.o
+/*.obj
+/*.so
+/*.a
+/*.exe
+/*.out
+/*.dll
 
-# Ignorar archivos generados por el compilador en la carpeta sistemaCine
-sistemaCine/*.dSYM/
-sistemaCine/*.d
-sistemaCine/*.dep
+# Ignorar archivos generados por el compilador en la carpeta 
+/*.dSYM/
+/*.d
+/*.dep
 
-# Ignorar archivos de logs en la carpeta sistemaCine
-sistemaCine/*.log
+# Ignorar archivos de logs en la carpeta 
+/*.log
 
-# Ignorar archivos de depuración en la carpeta sistemaCine
-sistemaCine/*.stackdump
-sistemaCine/*.debug
-sistemaCine/*.gch
+# Ignorar archivos de depuración en la carpeta 
+/*.stackdump
+/*.debug
+/*.gch
 
-# Ignorar archivos de sistema en la carpeta sistemaCine
-sistemaCine/.DS_Store
-sistemaCine/Thumbs.db
+# Ignorar archivos de sistema en la carpeta 
+/.DS_Store
+/Thumbs.db
 
-# Ignorar directorios de compilación en la carpeta sistemaCine
-sistemaCine/build/
-sistemaCine/bin/
-sistemaCine/debug/
-sistemaCine/release/
+# Ignorar directorios de compilación en la carpeta 
+/build/
+/bin/
+/debug/
+/release/
 
-# Ignorar archivos temporales en la carpeta sistemaCine
-sistemaCine/*.tmp
-sistemaCine/*.temp
-sistemaCine/*.swp
+# Ignorar archivos temporales en la carpeta 
+/*.tmp
+/*.temp
+/*.swp
 
-# Ignorar archivos específicos de IDEs en la carpeta sistemaCine
+# Ignorar archivos específicos de IDEs en la carpeta 
 # Visual Studio Code
-sistemaCine/.vscode/
-sistemaCine/*.sln
-sistemaCine/*.vcxproj*
-sistemaCine/*.user
+/.vscode/
+/*.sln
+/*.vcxproj*
+/*.user
 
 # Code::Blocks
-sistemaCine/*.layout
-sistemaCine/*.cbp
+/*.layout
+/*.cbp
 
 # Xcode
-sistemaCine/*.xcworkspace
-sistemaCine/*.xcuserstate
+/*.xcworkspace
+/*.xcuserstate
 
 # Red Panda IDE
-sistemaCine/*.redpanda/
-sistemaCine/*.rpconfig
-sistemaCine/*.rpbkp
+/*.redpanda/
+/*.rpconfig
+/*.rpbkp
 
-# Archivos privados o de respaldo en la carpeta sistemaCine
-sistemaCine/*_private*
+# Archivos privados o de respaldo en la carpeta 
+/*_private*
