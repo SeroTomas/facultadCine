@@ -1,0 +1,59 @@
+# Ignorar archivos de compilación en la carpeta sistemaCine
+sistemaCine/*.o
+sistemaCine/*.obj
+sistemaCine/*.so
+sistemaCine/*.a
+sistemaCine/*.exe
+sistemaCine/*.out
+sistemaCine/*.dll
+
+# Ignorar archivos generados por el compilador en la carpeta sistemaCine
+sistemaCine/*.dSYM/
+sistemaCine/*.d
+sistemaCine/*.dep
+
+# Ignorar archivos de logs en la carpeta sistemaCine
+sistemaCine/*.log
+
+# Ignorar archivos de depuración en la carpeta sistemaCine
+sistemaCine/*.stackdump
+sistemaCine/*.debug
+sistemaCine/*.gch
+
+# Ignorar archivos de sistema en la carpeta sistemaCine
+sistemaCine/.DS_Store
+sistemaCine/Thumbs.db
+
+# Ignorar directorios de compilación en la carpeta sistemaCine
+sistemaCine/build/
+sistemaCine/bin/
+sistemaCine/debug/
+sistemaCine/release/
+
+# Ignorar archivos temporales en la carpeta sistemaCine
+sistemaCine/*.tmp
+sistemaCine/*.temp
+sistemaCine/*.swp
+
+# Ignorar archivos específicos de IDEs en la carpeta sistemaCine
+# Visual Studio Code
+sistemaCine/.vscode/
+sistemaCine/*.sln
+sistemaCine/*.vcxproj*
+sistemaCine/*.user
+
+# Code::Blocks
+sistemaCine/*.layout
+sistemaCine/*.cbp
+
+# Xcode
+sistemaCine/*.xcworkspace
+sistemaCine/*.xcuserstate
+
+# Red Panda IDE
+sistemaCine/*.redpanda/
+sistemaCine/*.rpconfig
+sistemaCine/*.rpbkp
+
+# Archivos privados o de respaldo en la carpeta sistemaCine
+sistemaCine/*_private*
