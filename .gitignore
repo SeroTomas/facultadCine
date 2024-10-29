@@ -1,7 +1,7 @@
-/sistemaCine/*.o
-/sistemaCine/*.win
-/sistemaCine/*.exe
-/sistemaCine/*.bookmarks
-/sistemaCine/*.dev
-/sistemaCine/*.layout
-/sistemaCine/*_private*
+*.o
+*.win
+*.exe
+*.bookmarks
+*.dev
+*.layout
+*_private*
