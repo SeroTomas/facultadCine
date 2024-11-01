@@ -1,49 +1,52 @@
 [
     {
         "caretX": 1,
-        "caretY": 5,
-        "filename": "D:/cine/sistemaCine/idManager.c",
+        "caretY": 8,
+        "filename": "D:/cine/sistemaCine/idManager.h",
         "focused": false,
-        "isOpen": false,
+        "isOpen": true,
         "left": 0,
+        "order": 4,
         "top": 0
     },
     {
         "caretX": 1,
-        "caretY": 28,
+        "caretY": 5,
         "filename": "D:/cine/sistemaCine/film.c",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 0
+    },
+    {
+        "caretX": 2,
+        "caretY": 17,
+        "filename": "D:/cine/sistemaCine/main.c",
         "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    },
+    {
+        "caretX": 1,
+        "caretY": 16,
+        "filename": "D:/cine/sistemaCine/film.h",
+        "focused": false,
         "isOpen": true,
         "left": 0,
         "order": 0,
         "top": 0
     },
     {
-        "caretX": 2,
-        "caretY": 6,
-        "filename": "D:/cine/sistemaCine/main.c",
-        "focused": false,
-        "isOpen": false,
-        "left": 0,
-        "top": 0
-    },
-    {
-        "caretX": 1,
-        "caretY": 3,
-        "filename": "D:/cine/sistemaCine/idManager.h",
-        "focused": false,
-        "isOpen": false,
-        "left": 0,
-        "top": 0
-    },
-    {
-        "caretX": 12,
-        "caretY": 17,
-        "filename": "D:/cine/sistemaCine/film.h",
+        "caretX": 25,
+        "caretY": 47,
+        "filename": "D:/cine/sistemaCine/idManager.c",
         "focused": false,
         "isOpen": true,
         "left": 0,
-        "order": 1,
-        "top": 0
+        "order": 3,
+        "top": 1092
     }
 ]

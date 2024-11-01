@@ -12,6 +12,7 @@ short idGenerator(char idCode){
 	char position = 0;
 	
 	if(file == NULL){
+		
 		printf("El archivo no existe\n");
 		printf("generando primer archivo\n");
 		
@@ -22,8 +23,10 @@ short idGenerator(char idCode){
 			return 0;
 		}
 		
-		id = malloc(3*sizeof(struct Id));
+		//creo espacio en memoria para las 3 estructuras
+		id = malloc(3 * sizeof(struct Id));
 		
+		//asigno los espacios
 		for(short i = 0;i<3;i++){
 			id[i].code = i;
 			id[i].numberId = 0;
@@ -38,6 +41,7 @@ short idGenerator(char idCode){
 		id = NULL;
 	}
 	
+	//reservar espacio para una estructura
 	id = malloc(sizeof(struct Id));
 	
 	position = ftell(file);
@@ -55,8 +59,8 @@ short idGenerator(char idCode){
 	
 	if(flag){
 		
-		id->numberId++; 
-		utilId = id->numberId;
+		id->numberId++; //puntero
+		utilId = id->numberId; // valor
 		
 		fseek(file,position,SEEK_SET);
 		fwrite(id, sizeof(struct Id), 1, file);

@@ -18,5 +18,7 @@ typedef struct {
 
 void addFilm ( void );
 FilmList* getAllFilms();
+void freeFilmList( FilmList * );
+void renderFilms(FilmList *);
 
 #endif

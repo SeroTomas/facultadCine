@@ -13,10 +13,10 @@ CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
 CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
 WINDRESFLAGS = 
 RES      = sistemaCine_private.res
-OBJ      = main.o idManager.o $(RES)
+OBJ      = film.o main.o idManager.o $(RES)
 BIN      = sistemaCine.exe
-LINKOBJ  = "main.o" "idManager.o" "sistemaCine_private.res"
-CLEANOBJ = "main.o" "idManager.o" "sistemaCine_private.res" "sistemaCine.exe"
+LINKOBJ  = "film.o" "main.o" "idManager.o" "sistemaCine_private.res"
+CLEANOBJ = "film.o" "main.o" "idManager.o" "sistemaCine_private.res" "sistemaCine.exe"
 
 .PHONY: all all-before all-after clean clean-custom
 
@@ -29,7 +29,10 @@ sistemaCine.exe: $(OBJ)
 
 	$(CC) $(LINKOBJ) -o "sistemaCine.exe" $(LIBS)
 
-main.o: main.c idManager.h
+film.o: film.c idManager.h film.h
+	$(CC) -c "film.c" -o "film.o" $(CFLAGS) 
+
+main.o: main.c film.h
 	$(CC) -c "main.c" -o "main.o" $(CFLAGS) 
 
 idManager.o: idManager.c idManager.h

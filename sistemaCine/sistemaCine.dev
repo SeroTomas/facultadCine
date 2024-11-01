@@ -1,7 +1,7 @@
 [Project]
 filename = sistemaCine.dev
 name = sistemaCine
-UnitCount = 6
+UnitCount = 5
 Type = 1
 Ver = 3
 Includes = 
@@ -44,11 +44,11 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = idManager.c
+FileName = idManager.h
 CompileCpp = 0
-Folder = Sources
-Compile = 1
-Link = 1
+Folder = Headers
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -77,19 +77,6 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = .gitignore
-CompileCpp = 0
-Folder = Others
-Compile = 0
-Link = 0
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = 
-
-
-[Unit3]
 FileName = film.c
 CompileCpp = 0
 Folder = Sources
@@ -99,10 +86,10 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = UTF-8
+RealEncoding = ASCII
 
 
-[Unit4]
+[Unit3]
 FileName = main.c
 CompileCpp = 0
 Folder = Sources
@@ -112,15 +99,28 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = UTF-8
+RealEncoding = ASCII
 
 
-[Unit5]
-FileName = idManager.h
+[Unit4]
+FileName = film.h
 CompileCpp = 0
 Folder = Headers
 Compile = 0
 Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit5]
+FileName = idManager.c
+CompileCpp = 0
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
